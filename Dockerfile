@@ -7,4 +7,4 @@ ENV MYSQL_PASSWORD 123
 
 RUN apt-get update && \
     apt-get install -y vim && \
-    rm -rf /var/lib/apt/lists/
+    rm -rf /var/lib/apt/lists/*
